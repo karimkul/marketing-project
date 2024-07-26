@@ -59,6 +59,9 @@ footer {
     color: #323b4b;
     margin-bottom: 2.7rem;
 }
+.footer-link-box-lists li:last-child {
+    margin-bottom: 0;
+}
 .footer-coppy-right {
     max-width: 124rem;
     margin: 0 auto;
