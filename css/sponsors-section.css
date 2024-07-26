@@ -1,0 +1,55 @@
+.sponsors-section {
+    background-color: #fafbfc;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+.main-sponsors {
+    max-width: 124rem;
+    margin: 0 auto;
+    padding: 10.5rem 0;
+}
+.main-sponsors-in {
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 7.3rem;
+    color: #323b4b;
+    text-align: center;
+}
+.main-sponsors-text {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 3.5rem;
+    color: #8a94a6;
+    text-align: center;
+}
+.helper-margin-top {
+    margin-top: 2rem;
+}
+
+.main-sponsors-cards {
+    display: flex;
+    gap: 2.3rem;
+    width: 100%;
+    margin-top: 8.8rem;
+}
+.main-sponsors-box {
+    width: 39.2rem;
+    /* width: 100%; */
+}
+.sponsors-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8.7rem 0;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin-bottom: 2.2rem;
+}
+.sponsors-card-text {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    color: #858a8f;
+    text-align: center;
+}
