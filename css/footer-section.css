@@ -59,3 +59,13 @@ footer {
     color: #323b4b;
     margin-bottom: 2.7rem;
 }
+.footer-coppy-right {
+    max-width: 124rem;
+    margin: 0 auto;
+}
+.coppy-right {
+    margin-top: 11rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #8a94a6;
+}
