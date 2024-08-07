@@ -3,8 +3,8 @@
 /* *********************** */
 .sponsors-section {
     background-color: #fafbfc;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding-right: 6rem;
+    padding-left: 6rem;
 }
 .main-sponsors {
     max-width: 124rem;
@@ -48,6 +48,18 @@
     background-color: #ffffff;
     border-radius: 15px;
     margin-bottom: 2.2rem;
+}
+.sponsors-icon1 {
+    width: 21.1rem;
+    height: 5.8rem;
+}
+.sponsors-icon2 {
+    width: 17.7rem;
+    height: 5.2rem;
+}
+.sponsors-icon3 {
+    width: 21.4rem;
+    height: 5rem;
 }
 .sponsors-card-text {
     font-size: 1.8rem;

@@ -4,8 +4,8 @@
 
 .feature-section {
     background-color: #fafbfc;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     padding-top: 10.8rem;
     padding-bottom: 10.8rem;
 }
@@ -34,6 +34,9 @@
 }
 .main-feature-imgBox {
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-feature-img {
     height: 100%;
@@ -44,7 +47,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%, -50%);
-
+    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;

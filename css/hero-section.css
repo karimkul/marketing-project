@@ -3,19 +3,26 @@
 /* *********************** */
 
 .hero-section {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
 }
 .main-hero {
     display: flex;
+    align-items: center;
+    justify-content: center;
     max-width: 124rem;
     margin: 0 auto;
     justify-content: space-between;
-    /* gap: 13.8rem; */
+
+    padding-top: 12.4rem;
+    padding-bottom: 12.4rem;
 }
 .hero-left-box {
-    margin-top: 12.4rem;
-    margin-bottom: 12.4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 12.4rem;
+    margin-bottom: 12.4rem; */
 }
 .hero-left-box img {
     border-radius: 10px;
@@ -23,7 +30,8 @@
     width: 100%;
 }
 .hero-right-box {
-    margin-top: 21.8rem;
+    /* margin-top: 21.8rem;
+    margin-bottom: 20rem; */
 }
 .hero-right-in {
     margin-bottom: 3.3rem;

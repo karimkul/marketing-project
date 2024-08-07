@@ -3,10 +3,12 @@
 /* *********************** */
 .header {
     margin: 0 auto;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     padding-top: 4rem;
     padding-bottom: 4rem;
+
+    position: relative;
 }
 .header-nav {
     display: flex;
@@ -15,6 +17,14 @@
     background-color: #ffffff;
     max-width: 124rem;
     margin: 0 auto;
+}
+.header-icon-menu {
+    position: absolute;
+    right: 0;
+    color: #ffffff;
+    /* overflow: hidden; */
+    visibility: hidden;
+    /* display: none; */
 }
 .header-logo {
     height: 5.2rem;
