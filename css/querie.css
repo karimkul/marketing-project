@@ -19,7 +19,7 @@
 /* BELOW 1152px (Landscape Tablets) */
 /**************************/
 
-@media (max-width: 72em) {
+@media (max-width: 65em) {
     html {
         /* 8px / 16px  */
         font-size: 50%;
@@ -34,23 +34,44 @@
     .hero-left-box {
     }
     .hero-left-box img {
-        width: 70%;
+        /* width: 70%; */
         /* height: 70%; */
-    }
-    .main-feature-img {
-        /* height: 70%;
-        width: 70%; */
     }
 }
 
 /**************************/
 /* BELOW 944px (Tablets) */
 /**************************/
-
+@media (max-width: 55em) {
+    html {
+        /* 7px / 16px  */
+        font-size: 43.75%;
+    }
+    /* .hero-right-in {
+        line-height: 6.5rem;
+    } */
+}
 /**************************/
-/* BELOW 704px (Smaller tablets) */
+/* BELOW 743px (Smaller tablets) */
 /**************************/
-
+@media (max-width: 46.43em) {
+    .main-hero {
+        flex-direction: column;
+    }
+    .hero-right-box {
+        display: flex;
+        flex-direction: column;
+    }
+    .hero-right-in {
+        text-align: center;
+    }
+    .hero-right-text {
+        text-align: center;
+    }
+    .hero-right-link {
+        text-align: center;
+    }
+}
 /**************************/
 /* BELOW 544px (Phones) */
 /**************************/
